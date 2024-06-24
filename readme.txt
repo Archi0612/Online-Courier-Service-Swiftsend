@@ -17,4 +17,3 @@ For customer login:
 id: archi@gmail.com
 password: archi123
 
-![Screenshot 2024-01-12 125320](https://github.com/Archi0612/Online-Courier-Service-Swiftsend/assets/110686165/e186804f-dadd-4409-aff5-ae07629cea80)
