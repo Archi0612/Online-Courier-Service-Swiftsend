@@ -73,7 +73,7 @@ CREATE TABLE `feedback` (
 --
 
 INSERT INTO `feedback` (`id`, `name`, `email`, `parcel_id`, `rating`, `comments`, `created_at`) VALUES
-(1, 'Archi', 'archi06123@gmail.com', '2', 4, 'Excellent delivery service', '2024-02-06 13:13:12');
+(1, 'Archi', 'archi@gmail.com', '2', 4, 'Excellent delivery service', '2024-02-06 13:13:12');
 
 -- --------------------------------------------------------
 
@@ -198,7 +198,7 @@ INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `password`, `type`,
 (1, 'Administrator', '', 'admin@admin.com', '0192023a7bbd73250516f069df18b500', 1, 0, '2024-01-06 10:57:04', ''),
 (2, 'Ronak', 'Roy', 'rroy@sample.com', '288c642238fb2008ff454ce64e4510ce', 2, 1, '2024-01-06 11:52:04', ''),
 (3, 'Parsis', 'Saksena', 'psaksena@sample.com', 'e97f30eb2888118d9fc658c05684f407', 2, 4, '2024-01-08 13:32:12', ''),
-(4, 'Archi', 'Saksena', 'archi06123@gmail.com', '47f99b4252a485e7de748746eee20c5a', 3, 0, '2024-02-06 15:09:50', '700000000'),
+(4, 'Archi', 'Saksena', 'archi@gmail.com', '47f99b4252a485e7de748746eee20c5a', 3, 0, '2024-02-06 15:09:50', '700000000'),
 (6, 'Harsh', 'Rupavatiya', 'harsh@gmail.com', 'b0aa651c991deca550252ed6cbba99ba', 3, 0, '2024-02-06 15:27:35', '7280000740'),
 (9, 'Malhar', 'Solanki', 'malhar@sample.com', '43afc98bc492364f7eaf7636a9f46e2a', 3, 0, '2024-02-06 15:47:31', '9000000878'),
 (10, 'Charmi ', 'Patel', 'cpatel@gmail.com', 'f4e9ede58832094df601bd44663ab72e', 2, 4, '2024-02-21 18:53:52', ''),
