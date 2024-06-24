@@ -108,10 +108,10 @@ CREATE TABLE `parcels` (
 --
 
 INSERT INTO `parcels` (`id`, `reference_number`, `sender_name`, `sender_address`, `sender_contact`, `recipient_name`, `recipient_address`, `recipient_contact`, `type`, `from_branch_id`, `to_branch_id`, `weight`, `height`, `width`, `length`, `price`, `status`, `date_created`) VALUES
-(4, '514912669061', 'Vishal khaghad', '2, om residance, Vadodara', '1233467890', 'Malhar Solanki', '5th street, sec 11, Gandhinagar', '6789123440', 2, '3', '4', '23kg', '12in', '12in', '15in', 1900, 7, '2024-02-20 13:52:14'),
-(5, '897856905844', 'Archi Saksena', ' At: Mansa, Ta: Mansa, Dis: Gandhinagar, state: Gujarat', '1234567890', 'Malhar Solanki', '5th street, sec 11, Gandhinagar', '6780034400', 1, '4', '1', '30kg', '10in', '10in', '10in', 1450, 6, '2024-01-10 13:52:14'),
-(7, '282845157001', 'Archi Saksena', ' At: Mansa, Ta: Mansa, Dis: Gandhinagar, state: Gujarat', '1234567890', 'Harsh Rupavatiya', 'At: Amreli, Ta: Amreli, Dis: Amreli, state: Gujarat', '7285014740', 2, '3', '1', '100', '50', '35', '30', 500, 1, '2024-02-21 18:56:45'),
-(8, '894097309831', 'Vishal khaghad', '2, om residance, Vadodara', '1234567890', 'Harsh Rupavatiya', 'At: Amreli, Ta: Amreli, Dis: Amreli, state: Gujarat', '6789123440', 1, '1', '4', '20kg', '50in', '20in', '30in', 1000, 4, '2024-02-21 19:04:02');
+(4, '514912669061', 'Vishal khaghad', '2, om residance, Vadodara', '1233467890', 'Malhar Solanki', '5th street, sec 11, Gandhinagar', '6789000440', 2, '3', '4', '23kg', '12in', '12in', '15in', 1900, 7, '2024-02-20 13:52:14'),
+(5, '897856905844', 'Archi Saksena', ' At: Mansa, Ta: Mansa, Dis: Gandhinagar, state: Gujarat', '1234567890', 'Malhar Solanki', '5th street, sec 11, Gandhinagar', '0000034400', 1, '4', '1', '30kg', '10in', '10in', '10in', 1450, 6, '2024-01-10 13:52:14'),
+(7, '282845157001', 'Archi Saksena', ' At: Mansa, Ta: Mansa, Dis: Gandhinagar, state: Gujarat', '1234567890', 'Harsh Rupavatiya', 'At: Amreli, Ta: Amreli, Dis: Amreli, state: Gujarat', '72800000', 2, '3', '1', '100', '50', '35', '30', 500, 1, '2024-02-21 18:56:45'),
+(8, '894097309831', 'Vishal khaghad', '2, om residance, Vadodara', '1234567890', 'Harsh Rupavatiya', 'At: Amreli, Ta: Amreli, Dis: Amreli, state: Gujarat', '670003440', 1, '1', '4', '20kg', '50in', '20in', '30in', 1000, 4, '2024-02-21 19:04:02');
 
 -- --------------------------------------------------------
 
@@ -198,9 +198,9 @@ INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `password`, `type`,
 (1, 'Administrator', '', 'admin@admin.com', '0192023a7bbd73250516f069df18b500', 1, 0, '2024-01-06 10:57:04', ''),
 (2, 'Ronak', 'Roy', 'rroy@sample.com', '288c642238fb2008ff454ce64e4510ce', 2, 1, '2024-01-06 11:52:04', ''),
 (3, 'Parsis', 'Saksena', 'psaksena@sample.com', 'e97f30eb2888118d9fc658c05684f407', 2, 4, '2024-01-08 13:32:12', ''),
-(4, 'Archi', 'Saksena', 'archi06123@gmail.com', '47f99b4252a485e7de748746eee20c5a', 3, 0, '2024-02-06 15:09:50', '7383800612'),
-(6, 'Harsh', 'Rupavatiya', 'harsh@gmail.com', 'b0aa651c991deca550252ed6cbba99ba', 3, 0, '2024-02-06 15:27:35', '7285014740'),
-(9, 'Malhar', 'Solanki', 'malhar@sample.com', '43afc98bc492364f7eaf7636a9f46e2a', 3, 0, '2024-02-06 15:47:31', '9265669878'),
+(4, 'Archi', 'Saksena', 'archi06123@gmail.com', '47f99b4252a485e7de748746eee20c5a', 3, 0, '2024-02-06 15:09:50', '700000000'),
+(6, 'Harsh', 'Rupavatiya', 'harsh@gmail.com', 'b0aa651c991deca550252ed6cbba99ba', 3, 0, '2024-02-06 15:27:35', '7280000740'),
+(9, 'Malhar', 'Solanki', 'malhar@sample.com', '43afc98bc492364f7eaf7636a9f46e2a', 3, 0, '2024-02-06 15:47:31', '9000000878'),
 (10, 'Charmi ', 'Patel', 'cpatel@gmail.com', 'f4e9ede58832094df601bd44663ab72e', 2, 4, '2024-02-21 18:53:52', ''),
 (11, 'Veer', 'Patel', 'veer@gmail.com', 'f0e8669d93cf4e6c823ecc114c04fabd', 2, 3, '2024-02-22 16:12:33', '');
 
