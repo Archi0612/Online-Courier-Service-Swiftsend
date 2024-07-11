@@ -1,8 +1,5 @@
-## Online-Courier-Service
-Online Courier Service (Name: Swiftsend) is WebApp. It is user friendly platform.
-
-First you have to download and extract the zip file.
-Run the Xampp server.
+## Online-Courier-Service (Swiftsend)
+Online Courier Service is WebApp. It is user friendly platform.
 
 ## Use Following Credentials for login into SwiftSend
 
